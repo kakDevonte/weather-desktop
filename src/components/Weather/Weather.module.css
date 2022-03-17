@@ -1,0 +1,31 @@
+.body {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+
+}
+
+.item {
+    display: flex;
+    /*border: 2px dashed rgba(225, 13, 13, 0.87);*/
+}
+
+
+
+.text {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+.degree {
+    font-size: 180px;
+    line-height: 216px;
+}
+
+.weather {
+    font-size: 25px;
+    line-height: 30px;
+}
+

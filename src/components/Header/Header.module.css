@@ -1,0 +1,43 @@
+.container {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    align-items: center;
+}
+
+.text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.4;
+}
+
+.item {
+    padding: 20px;
+}
+
+.button {
+    opacity: 0.5;
+    border: 1px solid #FFFFFF;
+    padding: 5px 10px 5px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.buttonC {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.buttonF {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.disabled {
+    color: #FFFFFF;
+    background: transparent;
+}

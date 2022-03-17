@@ -1,0 +1,29 @@
+.container {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+}
+
+
+.text {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+.main {
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+.dataText {
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
